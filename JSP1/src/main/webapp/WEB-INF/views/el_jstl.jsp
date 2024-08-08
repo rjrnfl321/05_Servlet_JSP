@@ -1,3 +1,9 @@
+
+<%-- prefix : 접두사(앞에 붙는 단어/말)
+  만약 prefix="c"    ->  <c:if>
+  만약 prefix="core" ->  <core:if>
+--%>
+
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -10,6 +16,7 @@
 <body>
 
   <h1>EL (Expression Language)표현 언어</h1>
+  
   
   <pre>
       <%-- <%= %>   --%>
