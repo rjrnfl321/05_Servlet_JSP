@@ -46,7 +46,7 @@ public class UpdateServlet extends HttpServlet {
 	 * 각각의 메서드에서 처리할 수 있다
 	 */
 	
-	// 할 일 제목/내용 ㅅ후정 (POST 방식 요청)
+	// 할 일 제목/내용 수정 (POST 방식 요청)
 	
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

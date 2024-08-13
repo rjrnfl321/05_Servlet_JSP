@@ -12,11 +12,20 @@ import jakarta.servlet.http.HttpServletResponse;
 @WebServlet ("/search")
 public class BookServlet extends HttpServlet {
 	
-	
-	@Override
-	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-	
 		private List<String> bookList = null;
-	}
+
+		public BookServlet (){ // 기본 생성자
+
+			bookList = ArrayList<String>();
+
+			bookList.add("");
+			bookList.add("");
+			bookList.add("");
+			bookList.add("");
+			bookList.add("");
+			bookList.add("");
+			bookList.add("");
+		}
+
 
 }
