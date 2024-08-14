@@ -16,13 +16,13 @@
 
 <body>
 
-<h1>messge : ${message}</h1>
+<h1>message : ${message}</h1>
 
 <hr>
 
 <h1>회원가입</h1>
 
-<form action="/signup" method="post">
+<form action="/join" method="post">
 
 아이디 : <input type="text" name="memberId" required><br>
 비밀번호 : <input type="password" name="memberPw" required><br>
